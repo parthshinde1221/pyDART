@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Summary of the Development Workflow Process
 
 # 1. Pull the latest changes from the `main` branch
@@ -46,4 +44,3 @@ git branch -d feature/your-feature-name
 # Replace 'research' with 'main' if you merged into main
 git push origin research
 
-# End of Workflow Summary
