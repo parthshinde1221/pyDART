@@ -1,0 +1,1 @@
+# Basic dependencies for the core library

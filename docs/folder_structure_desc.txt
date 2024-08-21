@@ -1,0 +1,53 @@
+Py-DART/                                   # Root directory of the project
+│
+├── pydart/                                # Core library folder (this is the actual Python package)
+│   ├── __init__.py                        # Initialize the library
+│   ├── core/                              # Core functionalities
+│   │   ├── __init__.py
+│   │   ├── task.py                        # Task representation
+│   │   ├── taskset.py                     # TaskSet and pipeline management
+│   │   ├── scheduler.py                   # Task scheduling across CPU/GPU
+│   │   ├── worker.py                      # CPU/GPU workers
+│   │   └── profiler.py                    # Profiling utilities
+│   │
+│   ├── extensions/                        # Extension functionalities
+│   │   ├── __init__.py
+│   │   ├── custom_kernels.py              # Custom CUDA/Numba kernels
+│   │   ├── carla_integration.py           # Integration with CARLA (optional dependency)
+│   │
+│   └── utils/                             # Utility functions
+│       ├── __init__.py
+│       ├── logging.py                     # Logging utilities
+│       ├── config.py                      # Configuration management
+│       └── helpers.py                     # Helper functions
+│
+├── tests/                                 # Testing suite
+│   ├── __init__.py
+│   ├── unit/                              # Unit tests for core functionalities
+│   ├── integration/                       # Integration tests for extensions
+│   └── benchmark/                         # Benchmarking and performance tests
+│
+├── examples/                              # Example scripts for using the library and evaluations
+│   ├── __init__.py
+│   ├── example_generic.py                 # Example using general FFN and CNN models
+│   ├── example_transformer.py             # Example using general FFN and CNN/Transformer based models
+│   ├── example_custom_kernel.py           # Example using custom CUDA/Numba kernels
+│   └── carla/                             # Example using CARLA for autonomous driving
+│       ├── __init__.py
+│       ├── example_carla_integration.py   # Example using CARLA for autonomous driving
+│       ├── evaluation_script.py           # Script to evaluate models in CARLA
+│       └── carla_requirements.txt         # Extra requirements for CARLA integration
+│
+├── scripts/                               # Utility scripts for setting up environments, running benchmarks
+│   ├── setup_evaluation.py                # Setup for evaluation (could include dataset downloads, etc.)
+│   └── run_benchmarks.py                  # Script to run benchmarks
+│
+├── research/                              # Research folder
+│   ├── data/                              # Raw data or processed data
+│   ├── experimental/                      # Experimental scripts and notebooks
+│   ├── notebooks/                         # Jupyter notebooks for research
+│   └── reports/                           # Reports and documentation
+│
+├── setup.py                               # Setup script for the library
+├── README.md                              # Project overview and instructions
+└── requirements.txt                       # Basic dependencies for the core library
