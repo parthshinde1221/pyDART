@@ -1,4 +1,4 @@
-Py-DART/                                   # Root directory of the project
+pyDART/                                   # Root directory of the project
 │
 ├── pydart/                                # Core library folder (this is the actual Python package)
 │   ├── __init__.py                        # Initialize the library
