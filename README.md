@@ -51,6 +51,25 @@ The **research** branch showcases advanced or experimental features, including:
 
 1. **Clone and Check Out Research Branch**
    ```bash
-   git clone https://github.com/YourUsername/pyDART.git
+   git clone https://github.com/parthshinde1221/pyDART.git
    cd pyDART
    git checkout research
+
+
+2. **Check GPU (if any)**:
+   ```bash
+   nvidia-smi
+   ```
+   If you see NVIDIA driver info, you likely have a GPU. Otherwise, you’re on CPU.
+
+
+3. **Install PyTorch**
+    GPU Example
+   ```bash
+   pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+   ```
+
+   CPU Example
+   ```bash
+   pip install torch torchvision torchaudio
+   ```
