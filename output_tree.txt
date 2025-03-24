@@ -1,0 +1,133 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is C47E-AD28
+C:.
++---docs
++---examples
+¦   +---carla
++---pydart
+¦   +---core
+¦   +---extensions
+¦   +---utils
++---research
+¦   +---checkpoints
+¦   +---data
+¦   +---experimental
+¦   +---Final_POC_experiments
+¦   +---reports
+¦   +---results
++---scripts
++---tests
+    +---benchmark
+    +---integration
+    +---unit
+
+C:\Research work\pyDART>tree -f
+Folder PATH listing for volume Local Disk
+Volume serial number is 000000D6 C47E:AD28
+C:\RESEARCH WORK\PYDART\-F
+Invalid path - \RESEARCH WORK\PYDART\-F
+No subfolders exist
+
+
+C:\Research work\pyDART>tree /f
+Folder PATH listing for volume Local Disk
+Volume serial number is C47E-AD28
+C:.
+¦   output_tree.txt
+¦   README.md
+¦   requirements.txt
+¦   setup.py
+¦
++---docs
+¦       folder_structure.md
+¦       folder_structure_desc.ini
+¦       folder_structure_desc.txt
+¦       worklow_instructions.md
+¦       worklow_instructions.txt
+¦
++---examples
+¦   ¦   example_custom_kernel.py
+¦   ¦   example_generic.py
+¦   ¦   example_transformer.py
+¦   ¦   __init__.py
+¦   ¦
+¦   +---carla
+¦           carla_requirements.txt
+¦           evaluation_script.py
+¦           example_carla_integration.py
+¦           __init__.py
+¦
++---pydart
+¦   ¦   __init__.py
+¦   ¦
+¦   +---core
+¦   ¦       profiler.py
+¦   ¦       scheduler.py
+¦   ¦       task.py
+¦   ¦       taskset.py
+¦   ¦       worker.py
+¦   ¦       __init__.py
+¦   ¦
+¦   +---extensions
+¦   ¦       carla_integration.py
+¦   ¦       custom_kernels.py
+¦   ¦       __init__.py
+¦   ¦
+¦   +---utils
+¦           config.py
+¦           helpers.py
+¦           logging.py
+¦           __init__.py
+¦
++---research
+¦   +---checkpoints
+¦   ¦       Complete_PyDart_eval_code_1_0.ipynb
+¦   ¦       First_Itr_PyDart(Profiler_Testing_Errors).ipynb
+¦   ¦       Model_reconstruction_experiments.ipynb
+¦   ¦       PyDart(Testing_Newer_Profiler).ipynb
+¦   ¦       PyDart_Older_Util_Metric.ipynb
+¦   ¦       Retreving_Data_Profiler_Running_Stage.ipynb
+¦   ¦
+¦   +---data
+¦   +---experimental
+¦   ¦       cpu_experiment.ipynb
+¦   ¦       model_profiling_results (12).csv
+¦   ¦       node_profiler.ipynb
+¦   ¦       node_profiler_final.ipynb
+¦   ¦       node_profiler_poc.ipynb
+¦   ¦       Profiler_new.ipynb
+¦   ¦       profiler_test.ipynb
+¦   ¦       templates.ipynb
+¦   ¦
+¦   +---Final_POC_experiments
+¦   ¦       PyDart_Eval_Test.ipynb
+¦   ¦       PyDart_Eval_Test_K2_25.ipynb
+¦   ¦       PyDart_Eval_Test_K2_35_T4.ipynb
+¦   ¦
+¦   +---reports
+¦   +---results
+¦           experiment_plots_K2_25(2)_T4.pdf
+¦           experiment_plots_K2_25_T4.pdf
+¦           experiment_plots_K2_35_T4.pdf
+¦           experiment_plots_k8_num_35_A100.pdf
+¦           experiment_plots_num_25_A100.pdf
+¦           experiment_results_K2_25(2)_T4.csv
+¦           experiment_results_K2_25_T4.csv
+¦           experiment_results_K2_35_T4.csv
+¦           experiment_results_k8_num35_A100.csv
+¦           experiment_results_num_25_A100.csv
+¦           output_k8_num35_A100.log.txt
+¦           profiling_results_K2_25(2)_T4.csv
+¦           profiling_results_k2_25_T4.csv
+¦           profiling_results_K2_35_T4.csv
+¦
++---scripts
+¦       run_benchmarks.py
+¦       setup_evaluation.py
+¦
++---tests
+    ¦   __init__.py
+    ¦
+    +---benchmark
+    +---integration
+    +---unit
