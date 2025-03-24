@@ -19,7 +19,6 @@ Welcome to **PyDART**, a framework for **dynamic programming–based partitionin
   - [2. Evaluation (Eval Phase)](#2-evaluation-eval-phase)
   - [3. Runtime (Production) Phase](#3-runtime-production-phase)
 - [Examples](#examples)
-- [Setting Research as Default Branch](#setting-research-as-default-branch)
 - [License](#license)
 
 ---
