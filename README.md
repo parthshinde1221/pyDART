@@ -40,6 +40,7 @@ The **research** branch showcases advanced or experimental features, including:
   - `run_custom_experiment` to set up heavy/light tasks, partition them, capture naive vs. parallel traces, and measure speedup.
   - `run_multiple_custom_experiments` to loop over various heavy/light ratios.
 - **New Examples:** Demonstrating a full pipeline from user-defined tasks to final production inference.
+- > **Note:** Checkout , Final_POC_Experiments folder for the above full-fledged sample notebook.
 - **Scripts:** 
   - `experiment_static.py` for quick built-in model testing,
   - `experiment_runner.py` for an argparse CLI.
